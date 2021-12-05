@@ -1,0 +1,7 @@
+cat = {"name" : "Garfield",
+     "breed" : "Persian Tabby",
+     "age" : "5",
+     "color" : "Ginger",
+     "fav_food" : "fish",}
+choise = str(input('Enter characteristic of the cat: '))
+print(cat.get(choise, 'Choose another characteristic'))
