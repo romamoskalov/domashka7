@@ -1,0 +1,10 @@
+x = input()
+
+chars = {}
+
+for item in x:
+    if item in chars:
+        chars[item] += 1
+    else:
+        chars[item] = 1
+print(chars)
